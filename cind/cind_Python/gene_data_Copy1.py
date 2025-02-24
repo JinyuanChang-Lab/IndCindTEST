@@ -53,46 +53,7 @@ def my_data_ex6(n,p,q,m,dep):
 
 
 
-
-# def my_data_ex6(n,p,q,m,dep):
-#     # 创建StudentT分布实例
-#     t_distribution = torch.distributions.StudentT(1)
-#     x = t_distribution.sample((n,p))
-#     y = t_distribution.sample((n,q))
-#     zz = t_distribution.sample((n,m))
-#     mm = int(p/20)
-
-#     x[:, 0:4] = zz[:, 0:4]
-#     x[:, 4] = zz[:,3] + zz[:,4]
-#     y[:, 0] = torch.sum(zz[:, 0:4], dim=1)
-
-#     # for i in range(1,mm+1):
-#     #     index1 = (i-1)*6 + 1
-#     #     index2 = i*6
-#     #     x[:, (index1-1):(index2-2)] = zz[:, (index1-1):(index2-2)]
-#     #     x[:, (index2-2)] = zz[:,(index2-2)] + zz[:,(index2-1)]
-#     #     y[:, (i-1)] = torch.sum(zz[:, (index1-1):index2], dim=1)
-            
-#     if dep == 0:
-#         z = zz
-#     elif dep == 1:
-#         z= t_distribution.sample((n,m))
-#         # indexm =  np.arange(mm, mm*6, 6)
-#         z[:, 0] = zz[:, 1]
-#     else:
-#          z= t_distribution.sample((n,m))
-#          z[:, 0:4] = zz[:, 0:4]
-         
-#     #save as an array
-#     dat_my = [
-#         ("x", x),
-#         ("y", y),
-#         ("z", z)
-#     ]       
-
-#     data_label = {label: matrix for label, matrix in dat_my}
-#     return  data_label
-
+ 
 
 
 
