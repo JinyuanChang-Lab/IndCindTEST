@@ -287,7 +287,7 @@ Gauss_T <- function(n, p, q, dep, alpha){
     #stat <- F(x,cc)
     stat.r <- F(x.r,cc)
     #stat.s <- Jdcov.sq.US(x,cc)
-    #stat.p <- stat.pr <- stat.ps <- rep(0, Mp)
+    stat.p <- stat.pr <- stat.ps <- rep(0, Mp)
     for(i in 1:Mp)
     {
       x.pr <- x.p <- x
