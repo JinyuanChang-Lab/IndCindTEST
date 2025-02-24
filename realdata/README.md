@@ -4,9 +4,9 @@ This repository includes the codes for "Real Data Analysis" as described in the 
 
 ## Obtaining p-values:
 
-* To obtain the p-value of the real data using the proposed independence test, run the  R script  'my-in-realdat_pval-new-sta.R'.
+* To obtain the p-value of the real data using the proposed independence test, run the  MATLAB script  'realdat_ind.m'.
 
-* To obtain the p-value of the real data using the proposed conditional  independence test based on linear regression, run the MATLAB script  'real_data_cin.m'.
+* To obtain the p-value of the real data using the proposed conditional  independence test based on linear regression, run the MATLAB script  'realdat_cin.m'.
 
 * To obtain the p-value of the real data using the proposed conditional  independence test based on nonlinear regression, run the Jupyter Notebook 'realdata.ipynb'.
 
