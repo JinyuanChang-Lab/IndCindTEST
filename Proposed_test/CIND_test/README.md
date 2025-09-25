@@ -68,6 +68,8 @@ This folder contains the code for the implementations of the proposed conditiona
 ## `Cind_Gtest_mat.m`  
 `Cind_Gtest_mat` provides the MATLAB implementation of the proposed conditional independence test based on linear regressions (CI-Lasso, Section 4.2).  
 
+Note: The MATLAB code relies on the **glmnet** package, which is available at [https://hastie.su.domains/glmnet_matlab/](https://hastie.su.domains/glmnet_matlab/).
+
 ### Usage 
 `Cind_Gtest_mat(x, y, z, alpha, option, N, seed)`
 
