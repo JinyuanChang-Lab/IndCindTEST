@@ -1,0 +1,45 @@
+---- Test times =  200 -------- Test times =  400 -------- Test times =  600 -------- Test times =  800 -------- Test times =  1000 -------- Test times =  1200 -------- Test times =  1400 -------- Test times =  1600 -------- Test times =  1800 -------- Test times =  2000 -------- result=
+       method   prob prob_gaussian Na_nb Na_nb_gaussian
+1    gaussian 0.0005        0.0005     0              0
+2      mammen 0.0075        0.0075     0              0
+3  rademacher 0.0650        0.0650     0              0
+4        Pcor 0.0475        0.0515     0              0
+5       rdCov 0.0540        0.0520     0              0
+6        dCor 0.0490        0.0510     0              0
+7       dHSIC 0.0470        0.0495     0              0
+8      JdCovR 0.0630        0.0630     0              0
+9       GdCov 0.0545        0.0500     0              0
+10     Hallin 0.0540        0.0500     0              0
+11     mrdCov 0.0535        0.0500     0              0
+
+----
+---- Test times =  200 -------- Test times =  400 -------- Test times =  600 -------- Test times =  800 -------- Test times =  1000 -------- Test times =  1200 -------- Test times =  1400 -------- Test times =  1600 -------- Test times =  1800 -------- Test times =  2000 -------- result=
+       method   prob prob_gaussian Na_nb Na_nb_gaussian
+1    gaussian 1.0000        1.0000     0              0
+2      mammen 1.0000        1.0000     0              0
+3  rademacher 1.0000        1.0000     0              0
+4        Pcor 0.0470        0.5175     0              0
+5       rdCov 0.0515        0.1465     0              0
+6        dCor 0.0490        0.5200     0              0
+7       dHSIC 0.0465        0.5100     0              0
+8      JdCovR 0.0875        0.0875     0              0
+9       GdCov 0.0550        0.1180     0              0
+10     Hallin 0.0450        0.0510     0              0
+11     mrdCov 0.0475        0.0440     0              0
+
+----
+---- Test times =  200 -------- Test times =  400 -------- Test times =  600 -------- Test times =  800 -------- Test times =  1000 -------- Test times =  1200 -------- Test times =  1400 -------- Test times =  1600 -------- Test times =  1800 -------- Test times =  2000 -------- result=
+       method   prob prob_gaussian Na_nb Na_nb_gaussian
+1    gaussian 1.0000        1.0000     0              0
+2      mammen 1.0000        1.0000     0              0
+3  rademacher 1.0000        1.0000     0              0
+4        Pcor 0.0455        0.9635     0              0
+5       rdCov 0.0475        0.4215     0              0
+6        dCor 0.0440        0.9600     0              0
+7       dHSIC 0.0450        0.9635     0              0
+8      JdCovR 0.1380        0.1380     0              0
+9       GdCov 0.0570        0.2310     0              0
+10     Hallin 0.0475        0.0585     0              0
+11     mrdCov 0.0430        0.0465     0              0
+
+----

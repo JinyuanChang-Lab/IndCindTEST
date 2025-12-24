@@ -1,0 +1,36 @@
+---- Test times =  200 -------- Test times =  400 -------- Test times =  600 -------- Test times =  800 -------- Test times =  1000 -------- Test times =  1200 -------- Test times =  1400 -------- Test times =  1600 -------- Test times =  1800 -------- Test times =  2000 -------- result=
+      method   prob Nam
+1   gaussian 0.0045   0
+2     mammen 0.0190   0
+3 rademacher 0.0570   0
+4        GCM 0.0010   0
+5        PCD 0.0075   0
+6       PCIT 0.9935   0
+7       PCOT 0.9935   0
+8      cdCov 0.3605   0
+
+----
+---- Test times =  200 -------- Test times =  400 -------- Test times =  600 -------- Test times =  800 -------- Test times =  1000 -------- Test times =  1200 -------- Test times =  1400 -------- Test times =  1600 -------- Test times =  1800 -------- Test times =  2000 -------- result=
+      method   prob  Nam
+1   gaussian 1.0000    0
+2     mammen 1.0000    0
+3 rademacher 1.0000    0
+4        GCM 0.0025    0
+5        PCD    NaN 2000
+6       PCIT 0.9935    0
+7       PCOT 0.9930    0
+8      cdCov 0.1810    0
+
+----
+---- Test times =  200 -------- Test times =  400 -------- Test times =  600 -------- Test times =  800 -------- Test times =  1000 -------- Test times =  1200 -------- Test times =  1400 -------- Test times =  1600 -------- Test times =  1800 -------- Test times =  2000 -------- result=
+      method   prob  Nam
+1   gaussian 1.0000    0
+2     mammen 1.0000    0
+3 rademacher 1.0000    0
+4        GCM 0.0030    0
+5        PCD    NaN 2000
+6       PCIT 0.9955    0
+7       PCOT 0.9955    0
+8      cdCov 0.1675    0
+
+----

@@ -1,0 +1,15 @@
+2025-09-21 09:26:32,926 - Column means:
+                0
+Gaussian    0.002
+Mammen      0.029
+Rademacher  0.082
+2025-09-21 14:16:35,941 - Column means:
+                0
+Gaussian    0.171
+Mammen      0.131
+Rademacher  0.486
+2025-09-21 19:01:42,579 - Column means:
+                0
+Gaussian    0.291
+Mammen      0.187
+Rademacher  0.700
